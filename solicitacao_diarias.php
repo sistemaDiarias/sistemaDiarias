@@ -55,7 +55,7 @@
                                 <option value="">Selecione um Banco</option>
                                 <?php
                                 foreach ($arrayBancos as $banco){
-                                  echo "<option value='{$banco['cod_banco']}'>{$banco['nome']}</option>\n";
+                                  echo "<option value='{$banco['cod_banco']}'>{$banco['cod_banco']} - {$banco['nome']}</option>\n";
                                 }
                                 ?>
                             </select>

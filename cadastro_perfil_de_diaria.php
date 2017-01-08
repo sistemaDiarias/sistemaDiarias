@@ -1,8 +1,8 @@
 <?php
-    require_once 'classes/pagina.php';
-    require_once 'classes/Cargo.php';
-    require_once 'DAO/CargoDAO.php';
-    require_once 'DAO/DAO.php';
+    $root = $_SERVER['DOCUMENT_ROOT'].'/sistemaDiarias';
+    require_once "$root/classes/pagina.php";
+    require_once "$root/classes/Cargo.php";
+    require_once "$root/DAO/CargoDAO.php";
     
     class Pagina_Cadastro_Perfil_Diaria extends Pagina{
         public function exibir_body() {
